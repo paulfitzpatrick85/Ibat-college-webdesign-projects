@@ -14,7 +14,6 @@ img { width: 100%; height: auto; display: block }
 /* Main heading */
 .container-block h1 {
 	font-family: 'Roboto Condensed', sans-serif;
-    font-size: 84px;
     font-size: calc(32px + (84 - 32) * ((100vw - 320px) / (1600 - 320)));
     color: #3e414f;
     letter-spacing: 8px;
@@ -27,7 +26,6 @@ img { width: 100%; height: auto; display: block }
 /* Smaller headings */
 .container-block h2 {
 	font-family: 'Roboto Condensed', sans-serif;
-    font-size: 28px;
     font-size: calc(22px + (32 - 22) * ((100vw - 320px) / (1600 - 320)));
     color: #000000;
     line-height: 1.6;
@@ -38,7 +36,6 @@ img { width: 100%; height: auto; display: block }
 /* Smallest headings */
 .container-block h3 {
 	font-family: 'Roboto Condensed', sans-serif;
-    font-size: 48px;
     font-size: calc(28px + (48 - 28) * ((100vw - 320px) / (1600 - 320)));
     letter-spacing: 4px;
     color: #e1f5fe;
@@ -49,7 +46,6 @@ img { width: 100%; height: auto; display: block }
 /* Text paragraphs */
 .container-block p {
     font-family: 'PT Sans', sans-serif;
-    font-size: 20px;
     font-size: calc(19px + (21 - 19) * ((100vw - 320px) / (1600 - 320)));
     color: #fff;
     line-height: 1.8;   

@@ -11,6 +11,22 @@ img { width: 100%; height: auto; display: block }
 /* Mobiles */
 @media all and (max-width:767px) { .container-block { padding: 12% 8% } }
 
+/* flexbox container*/
+
+.container-flexbox 
+    {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+
+/* flexbox two container layout*/
+.item-col-2
+{
+    width: 50%;
+}
+
+
 /* Main heading */
 .container-block h1 {
     font-family: 'Fira Sans', sans-serif;
