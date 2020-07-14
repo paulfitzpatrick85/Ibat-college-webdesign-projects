@@ -6,7 +6,7 @@ img { width: 100%; height: auto; display: block }
 
 
 /* Desktops */
-@media all and (min-width:768px) { .container-block { padding: 4% 18% } }
+@media all and (min-width:768px) { .container-block { padding: 4% 12% } }
 
 /* Mobiles */
 @media all and (max-width:767px) { .container-block { padding: 12% 8% } }
@@ -20,11 +20,16 @@ img { width: 100%; height: auto; display: block }
     flex-wrap: wrap;
     }
 
-/* flexbox two container layout*/
-.item-col-2
-{
-    width: 50%;
-}
+
+/* Flexbox two-column layout */
+
+/* Desktops */
+@media all and (min-width:768px) { .item-col-2 { width: 45% } }
+
+/* Mobiles */
+@media all and (max-width:767px) {  .item-col-2 { width: 100% } }
+    
+
 
 
 /* Main heading */
@@ -34,7 +39,6 @@ img { width: 100%; height: auto; display: block }
     color: #1435b3;
     letter-spacing: -3px;
     text-align: center;
-    
     margin-bottom: 20px;
     
 }
@@ -73,10 +77,10 @@ img { width: 100%; height: auto; display: block }
 .container-block img { margin-bottom: 32px }
 
 /* container for web page blocks */
-.container-block { 
+/*.container-block { 
    border: solid 1px red;
    padding: 50px 18% 50px 18%;
-}
+}*/
 
 /* Coloured backgrounds */
 .bg-hero-block { background-color: #f5f9fb }
@@ -92,3 +96,6 @@ img { width: 100%; height: auto; display: block }
 /* Dark blue background: h3 sub-headings and p text paragraphs */
 .container-block.bg-blue-dark h3 { color: #fff }
 .container-block.bg-blue-dark p  { color: #fff }
+
+.no-padding-top    { padding-top: 0 !important;}
+.no-padding-bottom { padding-bottom: 0 !important;}
